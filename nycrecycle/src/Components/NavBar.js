@@ -12,17 +12,20 @@ const Navbar = () => {
     <>
       <nav className="navbar">
         <div className='navbar-container'>
+          {/* return to the home page when logo is clicked */}
+          <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
+
           <img
             src="https://images.squarespace-cdn.com/content/v1/5fd7a2f03c3ad531f41de6bb/1615487352542-1YBYPTENT89OF80VBK6J/ICON_Waste_Recycling.png"
             alt="Recycling Logo"
             className="logo"
           />
+          </Link>
 
           {/* Mobile responsive menu */}
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'}></i>
           </div>
-
           
           {/* Navbar menu */}
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
@@ -40,6 +43,11 @@ const Navbar = () => {
               <Link to="/landfill" className="nav-links" onClick={closeMobileMenu}>
                 Landfill
               </Link>
+            </li>
+            <li className="">
+              <button to="/landfill"  >
+                Language
+              </button>
             </li>
           </ul>
         </div>

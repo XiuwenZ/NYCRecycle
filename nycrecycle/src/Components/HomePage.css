@@ -1,0 +1,58 @@
+.home-page {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.section {
+    max-width: 900px; 
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.text h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.text p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #555;
+    padding: 10px;
+    max-width: 100%;
+}
+
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .section {
+        padding: 15px;
+        max-width: 90%; /* Reduces width on smaller screens */
+    }
+
+    .text h2 {
+        font-size: 1.3rem; /* Slightly smaller font for headings */
+    }
+
+    .text p {
+        font-size: 0.9rem; /* Slightly smaller font for paragraphs */
+    }
+}
+
+@media (max-width: 480px) {
+    .text h2 {
+        font-size: 1.2rem;
+    }
+
+    .text p {
+        font-size: 0.85rem;
+        line-height: 1.4;
+    }
+}
