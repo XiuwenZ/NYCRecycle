@@ -1,0 +1,38 @@
+.buttons-container button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: white;
+  transition: background-color 0.3s ease;
+  margin: 10px;
+}
+
+.buttons-container button:hover {
+  background-color: #45a049;
+}
+
+
+.map-container {
+  margin: 20px;
+  height: 600px;
+  width: auto;
+}
+
+
+
+strong {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+
+.categories {
+  max-width: 800px; /* Adjust the width as needed */
+  margin: 0 auto;
+  padding: 20px;
+  text-align: left;
+}
+

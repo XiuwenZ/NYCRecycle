@@ -17,7 +17,7 @@ const HomePage = () => {
         <div className="text">
           <h2>Learn to recycle properly in NYC</h2>
           <p>If you are not sure how to recycle and catogorizes the trashes. Press the button below to get educated and explore the options</p>
-          <Link to="/CategoriesPage">
+          <Link to="/RecyclablesPage">
             <button>Learn How to Recycle</button>
           </Link>
         </div>

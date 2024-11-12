@@ -1,15 +1,11 @@
-
-
 import NavBar from './Components/NavBar'
 import './App.css';
 import HomePage from './Components/HomePage';
-import CategoriesPage from './Components/CategoriesPage';
+import RecyclablesPage from './Components/RecyclablesPage';
+import ElectronicsPage from './Components/ElectronicsPage';
 import { Routes, Route } from 'react-router-dom';
 
 function App() {
-
-
-  
   return (
     <div className="App">
 
@@ -17,7 +13,8 @@ function App() {
       <NavBar/>
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/CategoriesPage" element={<CategoriesPage />} />
+        <Route path="/RecyclablesPage" element={<RecyclablesPage />} />
+        <Route path="/ElectronicsPage" element={<ElectronicsPage />} />
       </Routes>
 
 
