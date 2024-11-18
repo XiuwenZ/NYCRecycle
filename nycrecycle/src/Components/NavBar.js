@@ -40,11 +40,7 @@ const Navbar = () => {
               </Link>
             </li>
 
-            <li className="">
-              <button to="/"  >
-                Language
-              </button>
-            </li>
+
           </ul>
         </div>
       </nav>

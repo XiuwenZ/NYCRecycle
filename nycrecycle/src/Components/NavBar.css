@@ -21,7 +21,7 @@
 /* size of the logo */
 .logo {
     width: auto; 
-    height: 80px; /* Keep aspect ratio */
+    height: 80px; 
     margin-left: 20px; /* Adjust spacing from the left */
     position: relative;
 }
@@ -35,11 +35,14 @@
 .nav-menu {
     display: flex;
     list-style: none;
+    justify-content: flex-end;
     gap: 20px;  /* Adds spacing between the nav items */
+    
 }
 
 .nav-item {
     display: flex;
+
 
 }
 
